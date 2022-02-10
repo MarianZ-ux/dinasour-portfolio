@@ -1,0 +1,86 @@
+
+.head Title{
+  font-family: times 'Times New Roman', Times, serif;
+}
+
+body {
+  margin: 0;
+  padding: 0; 
+  font-family: times 'Times New Roman', Times, serif;
+  text-align: center;
+}
+
+.hero-image{
+  background-image: url("MilkyWayImage.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  height: clamp(350px, 10vh, 350px);
+  background-size: cover;  
+}
+
+.spacer{
+  height: 75px;
+}
+
+.carouselExampleIndicators{
+  height: clamp(350px, 10vh, 350px);
+}
+
+.navbar{
+  opacity: .9;
+  box-shadow: 0 8px 6px -6px rgba(0,0,0,.3);
+  background: linear-gradient(black, silver);
+  min-height: 75px;
+  z-index: 100;
+  position: fixed;
+  width: 100%;
+}
+
+ .avatar {
+  height: 175px;
+  width: 175px;
+  border:10px solid whitesmoke;
+  border-radius: 100%    
+} 
+
+.hero-text{
+  color: white;
+  text-align: center;
+}
+
+.hero-text h1{
+  font-size: 50px;
+  font-weight: 500;
+}
+
+.hero-text h2{
+  font-size: 25px;
+  font-weight: 500;
+  line-height: 20px;
+}
+
+
+.SMicons a {
+text-decoration: none;
+}
+ section {
+  border: 10px solid rgb(41, 1, 41);
+  line-height: 50px;
+  font-size: 15px;
+} 
+
+#navbrandicon{
+  transform:scale(2.0);
+  transition: .5 ease-in-out;
+  border-radius: 50%
+}
+
+#navbrandicon:hover{
+  transform:scale(2.5);
+  transition: .5 ease-in-out;
+}
+
+#footer{
+  border: 10px solid rgb(41,1,41);
+  background-color: black;
+}
